@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./css/styles.css">  
+    <script src="app.js"></script>
+
+    <head>
+<h1> Virtual Pet </h1>
+    </head>
+    <body onload="work()">
+        <img src="img/puppy.png">
+
+        <div class="side">
+        <h2> Name: <span id="name"></span></h2>
+        <h2>Age:   <span id="age"></span> yrs old</h2>
+        <h2>Happniess Level:  <span id="happy"></span></h2>
+        <h2> Weight: <span id="weight"></span> lbs</h2>
+        <h2> Mood: <span id="mood"></span></h2>
+
+        
+        </div>
+        <div class="buttons">
+        <button onclick="givePuppyTreat()">Treat</button>
+        <button onclick="puppyExercise()">Exercise</button>
+        <button onclick="timeOut()">Time Out </button>
+
+    </div>
+
+    </body>
+</html>
